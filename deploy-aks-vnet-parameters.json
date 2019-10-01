@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "aks-vnet-cluster"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "dnsPrefix": {
+            "value": "aks-vnet-cluster-dns"
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "agentCount": {
+            "value": 3
+        },
+        "agentVMSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "servicePrincipalClientId": {
+            "value": "5b764c21-7197-44f0-8be3-37d3766388af"
+        },
+        "servicePrincipalClientSecret": {
+            "value": "44c8ea9e-848e-4e05-bca0-f78cf465d907"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "kubernetesVersion": {
+            "value": "1.13.10"
+        },
+        "networkPlugin": {
+            "value": "azure"
+        },
+        "maxPods": {
+            "value": 30
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "vmssNodePool": {
+            "value": false
+        },
+        "windowsProfile": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableOmsAgent": {
+            "value": true
+        },
+        "workspaceRegion": {
+            "value": "eastus"
+        },
+        "workspaceName": {
+            "value": "ds-aks-loganalytics-ws"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/1e49f472-c073-481d-94cf-9de27560eb81/resourcegroups/defaultresourcegroup-eus/providers/microsoft.operationalinsights/workspaces/ds-aks-loganalytics-ws"
+        },
+        "omsSku": {
+            "value": "standalone"
+        },
+        "principalId": {
+            "value": "69d48a04-e0f1-4e78-9e55-aaa832ea0edc"
+        },
+        "vnetSubnetID": {
+            "value": "/subscriptions/1e49f472-c073-481d-94cf-9de27560eb81/resourceGroups/ds-rg/providers/Microsoft.Network/virtualNetworks/ds-aks-vnet/subnets/aks-subnet"
+        },
+        "serviceCidr": {
+            "value": "192.168.3.0/25"
+        },
+        "dnsServiceIP": {
+            "value": "192.168.3.10"
+        },
+        "dockerBridgeCidr": {
+            "value": "172.17.0.1/16"
+        }
+    }
+}
