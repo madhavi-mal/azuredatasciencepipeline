@@ -15,4 +15,6 @@
 * **Authentication**
 <img src="/authentication.png" width="600"/>
 
+* Setup Authentication for Azure ML resources and workflows
+* Detailed instructions are documented [here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-setup-authentication)
 
