@@ -78,4 +78,4 @@ The above conceptual security model are realized in Azure through the following 
 * [Instructions here](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-vnet)
 
 # Azure datascience Machine learning pipeline Model
-![](https://github.com/madhavi-mal/azuredatasciencepipeline/blob/master/datascience-model-in-azure.png)
+
