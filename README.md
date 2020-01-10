@@ -1,4 +1,3 @@
-Welcome to the azuredatasciencepipeline wiki!
 
 # Azure data science pipeline with Azure Machine Learning Service and Azure Databricks
 ![](https://github.com/madhavi-mal/azuredatasciencepipeline/blob/master/Azure-MLops-Datascience-pipeline-ref-architecture.png)
@@ -72,9 +71,8 @@ The above conceptual security model are realized in Azure through the following 
 | ML Authentication      | Key / Token authentication | Allow only authenticated network connections. Forward client certificates.         |
 | ML Security            | Azure  Premium    | HTTP triggers from private VNET w/ access to resources in a private VNET           |
 | ML Platform Security   | Azure virtual networks     | A virtual network acts as a security boundary, isolating your Azure resources from the public internet.|
-| Application Security   | Azure API Management       | Centralized data and control plane for microservices|
 | ML Platform Security   | Application Insights       | Monitor network connections. Customized alerts. Application telemetry.             |
 | Data Authorization     | Data authorization service | Custom service for evaluating application API calls  
 
-# Azure datascience Machine learning pipeline Secure Model
+# Azure datascience Machine learning pipeline Model
 ![](https://github.com/madhavi-mal/azuredatasciencepipeline/blob/master/datascience-model-in-azure.png)
