@@ -10,4 +10,9 @@
 
 <img src="/Azure-MLops-Datascience-pipeline-ref-architecture.png" width="600"/>
 
+## Enterprise security readiness
+
+* **Authentication**
+<img src="/authentication.png" width="600"/>
+
 
