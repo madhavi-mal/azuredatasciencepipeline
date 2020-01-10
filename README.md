@@ -40,7 +40,7 @@ You can create multiple workspaces, and each workspace can be shared by multiple
 * Using Azure KeyVault
 
 ### Secure webservices deployed through Azure ML with SSL 
-[Detailed instructions to secure webservices with SSL](Use SSL to secure a web service through Azure Machine Learning)
+[Detailed instructions to secure webservices with SSL](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-secure-web-service)
 
 ### Monitoring Azure Machine Learning
 
@@ -52,7 +52,7 @@ As a data scientist or developer to monitor information specific to your model t
 
 [Start, monitor, and cancel training runs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-runs)
 
-[Log metrics for training runs](https://docs].microsoft.com/en-us/azure/machine-learning/how-to-track-experiments)
+[Log metrics for training runs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-track-experiments)
 
 [Track eexperiments with MLflow](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-mlflow)
 
