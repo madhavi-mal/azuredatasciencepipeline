@@ -72,7 +72,10 @@ The above conceptual security model are realized in Azure through the following 
 | ML Security            | Azure  Premium    | HTTP triggers from private VNET w/ access to resources in a private VNET           |
 | ML Platform Security   | Azure virtual networks     | A virtual network acts as a security boundary, isolating your Azure resources from the public internet.|
 | ML Platform Security   | Application Insights       | Monitor network connections. Customized alerts. Application telemetry.             |
-| Data Authorization     | Data authorization service | Custom service for evaluating application API calls  
+| Data Authorization     | Data authorization service | Custom service for evaluating application API calls 
+
+# Restrict Access to container registry from VNET via firewall rules
+* [Instructions here](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-vnet)
 
 # Azure datascience Machine learning pipeline Model
 ![](https://github.com/madhavi-mal/azuredatasciencepipeline/blob/master/datascience-model-in-azure.png)
