@@ -74,7 +74,7 @@ The above conceptual security model are realized in Azure through the following 
 | ML Platform Security   | Application Insights       | Monitor network connections. Customized alerts. Application telemetry.             |
 | Data Authorization     | Data authorization service | Custom service for evaluating application API calls 
 
-# Restrict Access to container registry from VNET via firewall rules
+### Restrict Access to container registry from VNET via firewall rules
 * [Instructions here](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-vnet)
 
 # Azure datascience Machine learning pipeline Model
