@@ -79,3 +79,4 @@ The above conceptual security model are realized in Azure through the following 
 
 # Azure datascience Machine learning pipeline Model
 
+![](https://github.com/madhavi-mal/azuredatasciencepipeline/blob/master/DataSciencePipeline-ref-arch.jpg)
